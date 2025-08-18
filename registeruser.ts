@@ -1,5 +1,9 @@
 import {$} from '@wdio/globals'
 
+// This class defines the page object for the registration user page
+// It contains locators for various elements on the page
+// and methods to interact with those elements.
+
 class RegisterUser {
   public get sliderSection () {
      return $('//section[@id="slider"]');
